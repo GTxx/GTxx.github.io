@@ -1,3 +1,29 @@
-name: HOME
+paginate: 5 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 markdown: kramdown 
 highlighter: pygments
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: gtxx 
+
+description: Stylish Jekyll Theme
+author:
+  name: gtxx 
+  email: xiongxiong1986@gmail.com
+  github: GTxx 
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+
+name: HOME
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
+
