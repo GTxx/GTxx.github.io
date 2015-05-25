@@ -27,3 +27,5 @@ tags_path: tags.html
 
 BASE_PATH:
 
+kramdown:
+    input: GFM
